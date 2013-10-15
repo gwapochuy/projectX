@@ -7,4 +7,9 @@ crontab -e ***** /location of the script
 
 crontab -e ***** = correspond to minute/s(0-59) hour(0-23) day of month(1-30) month(1-12) day of week(1-7)
 
-crontab -e 60**** /etc/gwapo
+crontab -e 60**** /home/ubuntu/ka
+
+Note:
+1.Run this command before runnning the Crontab
+  tar -cf test.tar ka
+2.Run the crontab
