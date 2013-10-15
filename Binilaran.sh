@@ -1,4 +1,12 @@
-#!/bin/bash
-
 a=$(find /home ! -name '.*' -mmin -60 -user ubuntu)
-tar -uf wla.tar $a
+tar -cvpf test.tar $a
+
+if [ -f test.tar ]
+then
+  tar -uf test.tar $a
+
+else
+  tar -cvpf test.tar
+
+fi
+
