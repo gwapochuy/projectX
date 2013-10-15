@@ -7,4 +7,4 @@ crontab -e ***** /location of the script
 
 crontab -e ***** = correspond to minute/s(0-59) hour(0-23) day of month(1-30) month(1-12) day of week(1-7)
 
-crontab -e 5**** /etc/gwapo
+crontab -e 60**** /etc/gwapo
