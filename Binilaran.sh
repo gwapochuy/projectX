@@ -5,8 +5,7 @@ if [ -f test.tar ]
 then
   tar -uf test.tar $a
 
-else
-  tar -cvpf test.tar
+
 
 fi
 
